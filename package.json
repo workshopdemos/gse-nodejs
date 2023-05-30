@@ -1,0 +1,29 @@
+{
+  "name": "gse-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start-dev": "node ./src/app.js",
+    "start": "./scripts/run.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skurnevich/gse-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skurnevich/gse-nodejs/issues"
+  },
+  "homepage": "https://github.com/skurnevich/gse-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}

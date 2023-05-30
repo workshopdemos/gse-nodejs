@@ -1,0 +1,6 @@
+//SVRSTART JOB CLASS=A,REGION=0M,
+//             MSGLEVEL=(1,1),MSGCLASS=A,TIME=NOLIMIT                                   
+//STEP1    EXEC PGM=BPXBATCH,
+// PARM='SH TARGET_DIR/src/run.sh'
+//STDOUT   DD SYSOUT=*                                
+//STDERR   DD SYSOUT=*   
